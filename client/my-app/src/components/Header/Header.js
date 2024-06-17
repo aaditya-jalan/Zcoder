@@ -2,12 +2,13 @@ import React, { useContext } from 'react';
 import { AppBar, Toolbar, Button, Box, styled } from '@mui/material';
 import logo from './logo.png';
 import { AccountContext } from '../constants/contexts/AccountProvider';
+
 const HeaderContainer = styled(AppBar)({
   position: 'fixed',
   top: 0,
   left: 0,
   width: '100%',
-  padding: '20px 100px',
+  padding: '0vh 15vh', // Converted 20px and 100px to vh
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
@@ -17,23 +18,24 @@ const HeaderContainer = styled(AppBar)({
 });
 
 const Logo = styled('img')({
-  width: '85px',
+  width: '13vh', // Converted 85px to vh
   userSelect: 'none',
+  height: '10vh'
 });
 
 const NavigationButton = styled(Button)({
   fontSize: '1.1em',
   color: 'white',
   fontWeight: 500,
-  marginLeft: '40px',
+  marginLeft: '6vh', // Converted 40px to vh
   position: 'relative',
   '&::after': {
     content: '""',
     position: 'absolute',
     left: 0,
-    bottom: '-6px',
+    bottom: '-0.9vh', // Converted 6px to vh
     width: '100%',
-    height: '3px',
+    height: '0.45vh', // Converted 3px to vh
     background: 'white',
     borderRadius: '5px',
     transform: 'scaleX(0)',
@@ -45,15 +47,15 @@ const NavigationButton = styled(Button)({
 });
 
 const LoginButton = styled(Button)({
-  width: '130px',
-  height: '50px',
+  width: '19.5vh', // Converted 130px to vh
+  height: '7vh', // Converted 50px to vh
   background: 'transparent',
-  border: '2px solid white',
+  border: '2px solid white', // Converted 2px to vh
   borderRadius: '6px',
   fontSize: '1.1em',
   color: 'white',
   fontWeight: 500,
-  marginLeft: '40px',
+  marginLeft: '6vh', // Converted 40px to vh
   '&:hover': {
     background: 'white',
     color: 'black',
@@ -61,22 +63,23 @@ const LoginButton = styled(Button)({
 });
 
 const RiHeader = () => {
-  const {setAccount}=useContext(AccountContext);
-  const {setPerson,setPage}=useContext(AccountContext);
-  const logOut=()=>{
+  const { setAccount } = useContext(AccountContext);
+  const { setPerson, setPage } = useContext(AccountContext);
+  
+  const logOut = () => {
     setAccount(null);
     setPerson({});
   }
-  const cl1=()=>{
+  const cl1 = () => {
     setPage(1);
   }
-  const cl2=()=>{
+  const cl2 = () => {
     setPage(2);
   }
-  const cl3=()=>{
+  const cl3 = () => {
     setPage(3);
   }
-  const cl4=()=>{
+  const cl4 = () => {
     setPage(4);
   }
   

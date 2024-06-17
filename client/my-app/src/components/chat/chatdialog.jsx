@@ -20,7 +20,8 @@ const dialogStyle={
     borderRadius:"0",
     display: "flex",
   flexDirection: "column",
-  justifyContent: "flex-end"
+  justifyContent: "flex-end",
+  backgroundColor: "black"
   }
   const Component=styled(Box)`
     display: flex;

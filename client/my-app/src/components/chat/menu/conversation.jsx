@@ -28,9 +28,9 @@ function Conversation(props){
         </Box>
         <Box>
             <Box>
-                <Typography style={{color:'#FFFFFF'}}>
-                    {props.data.name}
-                </Typography>
+            <Typography style={{ color: '#FFFFFF' }}>
+      {props.data.sub === account.sub ? "You" : props.data.name}
+    </Typography>
             </Box>
         </Box>
     </Component>

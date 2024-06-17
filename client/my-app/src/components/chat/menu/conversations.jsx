@@ -38,7 +38,7 @@ function Conversations({text}){//this is object destructuring
             
             
                 {users.map(user => (
-                    user.sub !==account.sub &&<Fragment>
+                    <Fragment>
                     <Conversation data={user}/>
                     <Sdivider/>
                     </Fragment>
