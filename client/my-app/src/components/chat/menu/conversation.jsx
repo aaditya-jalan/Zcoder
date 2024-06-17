@@ -29,7 +29,7 @@ function Conversation(props){
         <Box>
             <Box>
             <Typography style={{ color: '#FFFFFF' }}>
-      {props.data.sub === account.sub ? "You" : props.data.name}
+      {props.data.sub === account.sub ? "You (bookmark your solutions here)" : props.data.name}
     </Typography>
             </Box>
         </Box>
