@@ -5,6 +5,7 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 ## Table of Contents
 
 - [Features](#features)
+  - [Login Page](#login-page)
   - [User Profiles](#user-profiles)
   - [Collaborative Learning](#collaborative-learning)
   - [Chat](#chat)
@@ -15,6 +16,10 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 - [Usage](#usage)
 
 ## Features
+
+ ### Login Page
+ - **Google Authentication:** Our website only allows logins through Google Authentication.
+ - **New Account on first time Login:** Once you login after google authentication your profile is automatically created however you still need to fill in the details in the user profile section.
 
 ### User Profiles
 
