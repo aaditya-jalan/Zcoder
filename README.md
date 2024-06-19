@@ -41,7 +41,7 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 
 ### Problem-Solving Discussions
 
-- **Solution Sharing:** Users can share their solutions and approaches to problems via community.
+- **Solution Sharing:** Users can share their solutions and approaches to problems via community and end to end user interactions.
 
 ### Community Section
 
