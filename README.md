@@ -59,7 +59,7 @@ To install and run ZCoder locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/zcoder.git
+   git clone https://github.com/aaditya-jalan/zcoder.git
 2. Navigate to the project directory and download the necessary dependencies:(copy-paste the following code into the terminal)
    ```bash
    cd Zcoder
