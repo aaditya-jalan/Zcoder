@@ -18,8 +18,8 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 ## Features
 
  ### Login Page
- - **Google Authentication:** Our website only allows logins through Google Authentication.
- - **New Account on first time Login:** Once you login after google authentication your profile is automatically created however you still need to fill in the details in the user profile section.
+ - **Enhanced Security:**  Our website exclusively supports logins through Google Authentication, ensuring a secure and streamlined login experience for our users.
+ - **New Account on first time Login:** Once you login after google authentication your profile is automatically created however you still need to fill in the necessary details in the user profile section.
 
 ### User Profiles
 
@@ -30,7 +30,7 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 
 ### Collaborative Learning
 
-- **Study Groups:** Users can join or create study groups based on specific topics or programming languages.
+- **Study Groups:** Users can join  study groups based on specific topics or programming languages.
 - **Learning Resources:** A collection of tutorials, articles, and videos(links) shared by the community.
 
 ### Chat
@@ -41,13 +41,11 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 
 ### Problem-Solving Discussions
 
-- **Problem Threads:** Users can start threads about specific coding problems they have encountered.
-- **Solution Sharing:** Users can share their solutions and approaches to problems.
-- **Upvotes and Comments:** Users can upvote helpful solutions and add comments to discussions.
+- **Solution Sharing:** Users can share their solutions and approaches to problems via community.
 
 ### Community Section
 
-- **Posts:** Users can create posts to share news, articles, or opinions.
+- **Posts:** Users can create messages to share news, articles, or opinions.
 - **Discussion:** Users can start discussions on various topics and engage with the community.
 
 ### Contest Calendar
