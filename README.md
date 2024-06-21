@@ -25,7 +25,7 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 
 - **Details:** Users can choose username for themselves and upload details about their institution and other details.
 - **Bio:** A section where users can write a short bio about themselves.
-- **Other Profiles:** Users can list username in different platforms such as Codeforces, Codechef, Atcoder.
+- **Other Profiles:** Users can list username in different platforms such as Codeforces, Codechef, Atcoder and Leetcode.
 - **Linkedin:** user can put up their linkedin profiles.
 
 ### Collaborative Learning
