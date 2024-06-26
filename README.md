@@ -80,5 +80,5 @@ After this the app should start in your device (if you are facing any issues/bug
 
 ## Usage
 
-Once the server is running, open your browser and navigate to http://localhost:3000 to start using ZCoder. You can create an account, set up your profile, join collaborative learning groups, chat with other users, participate in problem-solving discussions, and check the contest calendar.
+Once the server is running, open your browser and navigate to http://localhost:3000 to start using ZCoder. You can create an account by directly signing up with google, set up your profile, join collaborative learning groups, chat with other users, participate in problem-solving discussions, and check the contest calendar.
 
