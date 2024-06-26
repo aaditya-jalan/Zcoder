@@ -76,7 +76,7 @@ To install and run ZCoder locally, follow these steps:
    npm i
    npm start
 
-After this the app should start in your device (if you are facing any issues/bugs please raise them in the issues section)
+After this the app should start in your device (if you are facing any issues/bugs please raise them in the issues section).
 
 ## Usage
 
