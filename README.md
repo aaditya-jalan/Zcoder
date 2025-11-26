@@ -36,7 +36,7 @@ ZCoder is a comprehensive platform designed to facilitate collaborative learning
 ### Chat
 
 - **Private Messaging:** Users can send private messages to each other.
-- **Self Chat:** Users can book mark questions, articles by sending links in their slef chat.
+- **Self Chat:** Users can book mark questions, articles by sending links in their self chat.
 - **Drawer:** Users can check their profile details by clicking on their profile.
 
 ### Problem-Solving Discussions
