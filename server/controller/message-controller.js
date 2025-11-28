@@ -8,7 +8,7 @@ export async function newMessage(request,response){
           const newMessage=  new Message(request.body );
           await newMessage.save();
           await conversation.findByIdAndUpdate(request.body.conversationId,{message:request.body.text});
-          return response.status(200).json("Messaage is sengthgbjrjrnkjnfnvfkf")
+          return response.status(200).json("Message is sent")
         } catch (error) {
             return response.status(500).json(error.message);
         }
